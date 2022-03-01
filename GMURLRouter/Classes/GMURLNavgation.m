@@ -74,10 +74,7 @@ GMSingletonM(GMURLNavgation);
 
 /** pop掉一层控制器 */
 +(void)popViewControllerAnimated:(BOOL)animated{
-     UINavigationController * nviController = [GMURLNavgation sharedGMURLNavgation].getCurrentNaviController;
-    if (nviController) {
-        [nviController popViewControllerAnimated:animated];
-    }
+    [GMURLNavgation popViewControllerWithTimes:1 animated:YES];
 }
 
 /*推出 某一个页面*/
@@ -96,6 +93,13 @@ GMSingletonM(GMURLNavgation);
         }
     }
 }
++ (void)popViewControllerWithTimes:(NSUInteger)times query:(NSDictionary*)query animated:(BOOL)animated;{
+    UIViewController * VC= [GMURLNavgation sharedGMURLNavgation].getCurrentViewController;
+    if (VC.callBack) {
+        VC.callBack(query);
+    }
+    [GMURLNavgation popViewControllerWithTimes:times animated:animated];
+}
 
 + (void)popToRootViewControllerAnimated:(BOOL)animated{
    UINavigationController * nviController =  [[GMURLNavgation sharedGMURLNavgation]getCurrentNaviController];
@@ -113,12 +117,21 @@ GMSingletonM(GMURLNavgation);
     
     UIViewController * viewController =[[GMURLNavgation sharedGMURLNavgation]getCurrentViewController];
     if(viewController){
-        while (times>0) {
+        while (times>1) {
             viewController = viewController.presentingViewController;
             times--;
         }
         [viewController dismissViewControllerAnimated:flag completion:completion];
     }
+}
+
+/*dismiss 推出页面*/
++ (void)dismissViewControllerWithTimes:(NSUInteger)times query:(NSDictionary*)query animated: (BOOL)flag{
+    UIViewController * viewController =[[GMURLNavgation sharedGMURLNavgation]getCurrentViewController];
+    if (viewController.callBack) {
+        viewController.callBack(query);
+    }
+    [GMURLNavgation dismissViewControllerWithTimes:times animated:flag completion:nil];
 }
 
 /*返回到对应的根控制器*/
@@ -168,6 +181,10 @@ GMSingletonM(GMURLNavgation);
     if([viewController isKindOfClass:[UINavigationController class]]){
         //如果是导航控制器
         UINavigationController * nviController = (UINavigationController*)viewController;
+        if (nviController.presentedViewController) {
+            //处理导航present页面
+            return [self getCurrentControllerFrom:nviController.presentedViewController];
+        }
         return [nviController.viewControllers lastObject];
     }else if ([viewController isKindOfClass:[UITabBarController class]]){
         //如果当前控制器是 Tabbar

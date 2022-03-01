@@ -28,15 +28,14 @@ GMSingletonM(GMURLRouter);
     
     id manager = [[GMURLRouter sharedGMURLRouter].moduleConfigDict objectForKey:moduleStr];
     SEL customSelector = aSelector;
-    if (!obj) {
-        obj = @"";
-    }
     NSAssert1(customSelector, @"不存在方法%@", NSStringFromSelector(aSelector));
     id result;//函数的返回值
     if ([manager respondsToSelector:customSelector]) {
         IMP imp = [manager methodForSelector:customSelector];
-        id (*func)(id, SEL ,id ,id) = (void *)imp;
-        result = func(manager, customSelector,obj,block);
+        id (*func)(id, SEL,...) = (void *)imp;
+        if (func) {
+            result = func(manager, customSelector,obj,block);
+        }
     }
     return result;
 }
@@ -233,6 +232,7 @@ static id createModule(NSString *moduleString) {
 + (void)pushViewController:(UIViewController *)viewController query:(NSDictionary* __nullable)query callBack:(void(^__nullable)(id context))callBack animated:(BOOL)animated{
     [GMURLNavgation pushViewController:viewController query:query callBack:callBack animated:animated];
 }
+
 /*导航push 传递一个 控制器名字*/
 +(void)pushViewControllerWithName:(NSString*)VCName Animated:(BOOL)animated{
     if (!VCName) {
@@ -278,6 +278,10 @@ static id createModule(NSString *moduleString) {
 +(void)popToRootViewControllerAnimated:(BOOL)animated{
     [GMURLNavgation popToRootViewControllerAnimated:animated];
 }
+/** pop到根层控制器  query 回调参数 */
++ (void)popViewControllerWithTimes:(NSUInteger)times query:(NSDictionary*)query animated:(BOOL)animated;{
+    [GMURLNavgation popViewControllerWithTimes:times query:query animated:animated];
+}
 
 #pragma mark --------  modal控制器 --------
 /*present页面无参数*/
@@ -319,6 +323,10 @@ static id createModule(NSString *moduleString) {
 /*返回到对应的控制器*/
 +(void)dismissToViewController:(NSString *)className animated:(BOOL)animated completion:(void(^ __nullable)(void))completion{
     [GMURLNavgation dismissToViewController:className animated:animated completion:completion];
+}
+/*dismiss 推出页面  query 回调参数*/
++ (void)dismissViewControllerWithTimes:(NSUInteger)times query:(NSDictionary*)query animated: (BOOL)flag{
+    [GMURLNavgation dismissViewControllerWithTimes:times query:query animated:flag];
 }
 
 /*保存配置的路由路径*/

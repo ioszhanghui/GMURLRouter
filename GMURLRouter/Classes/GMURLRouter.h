@@ -88,6 +88,7 @@ GMSingletonH(GMURLRouter);
 +(void)popViewControllerWithTimes:(NSUInteger)times animated:(BOOL)animated;
 /** pop到根层控制器 */
 +(void)popToRootViewControllerAnimated:(BOOL)animated;
++ (void)popViewControllerWithTimes:(NSUInteger)times query:(NSDictionary*)query animated:(BOOL)animated;
 
 
 
@@ -114,11 +115,14 @@ GMSingletonH(GMURLRouter);
 + (void)dismissViewControllerWithTimes:(NSUInteger)times animated: (BOOL)flag completion: (void (^ __nullable)(void))completion;
 /** dismiss到根层控制器 */
 + (void)dismissToRootViewControllerAnimated: (BOOL)flag completion: (void (^ __nullable)(void))completion;
+/*dismiss 推出页面*/
++ (void)dismissViewControllerWithTimes:(NSUInteger)times query:(NSDictionary*)query animated: (BOOL)flag;
+
 /*返回到对应的控制器*/
 +(void)dismissToViewController:(NSString *)className animated:(BOOL)animated completion:(void(^ __nullable)(void))completion;
 
 #pragma mark --------  模块之间方法调用 --------
-+ (id)postModuleWithTarget:(NSString*)moduleStr action:(SEL)aSelector withObject:(id)obj callBackBlock:(void (^)(id blockParam))block;
++ (id)postModuleWithTarget:(NSString*)moduleStr action:(SEL)aSelector withObject:(id __nullable)obj callBackBlock:(void (^ __nullable)(id blockParam))block;
 
 #pragma mark --------  根据URL 获取附加 --------
 /**

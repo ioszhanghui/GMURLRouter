@@ -7,11 +7,16 @@
 //
 
 #import "GMAppDelegate.h"
+#import "GMRouterDefault.h"
+
+
 
 @implementation GMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [[GMURLRouter sharedGMURLRouter]registerModules:@[@"GMHomeModule"]];
     // Override point for customization after application launch.
     return YES;
 }

@@ -45,17 +45,20 @@ GMSingletonH(GMURLNavgation);
 /** pop掉一层控制器 */
 +(void)popViewControllerAnimated:(BOOL)animated;
 + (void)popTwiceViewControllerAnimated:(BOOL)animated;
-+ (void)popViewControllerWithTimes:(NSUInteger)times animated:(BOOL)animated;
 + (void)popToRootViewControllerAnimated:(BOOL)animated;
++ (void)popViewControllerWithTimes:(NSUInteger)times animated:(BOOL)animated;
++ (void)popViewControllerWithTimes:(NSUInteger)times query:(NSDictionary*)query animated:(BOOL)animated;
 
 
 #pragma mark ############################## dismiss ############################
 /*dismiss 推出页面*/
 + (void)dismissTwiceViewControllerAnimated: (BOOL)flag completion: (void (^ __nullable)(void))completion;
-/**/
+/*dismiss 推出页面*/
 + (void)dismissViewControllerWithTimes:(NSUInteger)times animated: (BOOL)flag completion: (void (^ __nullable)(void))completion;
 /*返回到对应的根控制器*/
 + (void)dismissToRootViewControllerAnimated: (BOOL)flag completion: (void (^ __nullable)(void))completion;
+/*dismiss 推出页面*/
++ (void)dismissViewControllerWithTimes:(NSUInteger)times query:(NSDictionary*)query animated: (BOOL)flag;
 /*返回到对应的控制器*/
 +(void)dismissToViewController:(NSString *)className animated:(BOOL)animated completion:(void(^ __nullable)(void))completion;
 

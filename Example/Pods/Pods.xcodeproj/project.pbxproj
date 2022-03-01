@@ -7,184 +7,186 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
-		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FADF60E9DD790CA6E4094C4D6050DA /* QuartzCore.framework */; };
-		19D4532EE6E5F21792CBAE9B33743FEF /* GMURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4DAEDFF9C39CAE8F0B54AC6BB82EE8 /* GMURLRouter.m */; };
-		234766AD75B60372DD91024379826FA9 /* Pods-GMURLRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2C0951016F88CB76E428380F880880 /* Pods-GMURLRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
-		2FE55B97595A72BB31B4AE40D67698D9 /* GMRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 52624F6E1F28E11BDAF5B7E20BCC9378 /* GMRouterConfig.m */; };
-		3859B80C56384D69B571624BE067CBA9 /* Pods-GMURLRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E49E2D3A820210516A873D918B84AC50 /* Pods-GMURLRouter_Example-dummy.m */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		539AB095ECD88B2693B3369A6BD77BF2 /* UIViewController+GMURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7217F8A130B1C19EA5485559B13B7 /* UIViewController+GMURLRouter.m */; };
-		5EBC125B0F7099C2D5024F9EAFBD58E7 /* GMURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 81029C66BB74357C96FFE08D3BECABB3 /* GMURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918A4A447F67FE816CF0B086EE1695FF /* XCTest.framework */; };
-		6BF2120ACA499483EF060F4DCAB023EC /* GMURLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AC2AA5BA53F91C164930E39538B846 /* GMURLRouter-dummy.m */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		78A9F516C94C8D16C1D59143841CE15B /* GMURLRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F124553665829DEA387E4397C4D982 /* GMURLRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B9B50839297C7439228FE08CDEBEA91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC41F008025D6FF811E4287393D79D5 /* Foundation.framework */; };
-		7BA9DDF91F89A86EED0B432BC9AA5E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC41F008025D6FF811E4287393D79D5 /* Foundation.framework */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		990C6592C5EC54214A9EBA81697653D3 /* UIViewController+GMURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 062AE9E090FCBB69E25AB0EA3E97F897 /* UIViewController+GMURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		A0A1D002C2A4F06E1018493B22FB9D95 /* GMURLNavgation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B69BCA56EA881244D566DE4D2F6571A /* GMURLNavgation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		A9B8D9FD9D31F32C6E80E83C348DA1D6 /* GMURLNavgation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B5E76ADA7729A52DDAE40157CD23E4 /* GMURLNavgation.m */; };
-		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC41F008025D6FF811E4287393D79D5 /* Foundation.framework */; };
-		B6090D08F1332936645108F8CEBA772B /* Pods-GMURLRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4090596AA9BDEB9C3D9DE875BDC266E /* Pods-GMURLRouter_Tests-dummy.m */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B8C29FE3631D38EFF548F0F295268F2E /* GMRouterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = BE3881A430378C2AFC1532343C44188A /* GMRouterConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF85A5BD2C109D6EC7E97CCDDE6A3410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECAE0D2045D9A8635421741880EDA5D /* UIKit.framework */; };
-		C321926920BFBC79DF4697D56B807914 /* Pods-GMURLRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DD27B3498962093BEA1048CB57A8EF /* Pods-GMURLRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D43B74F83029639AB9A12661AA9FA4 /* GMSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 631C7FA480E8EC22E983AD7CA0418995 /* GMSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D104C20ADA2A0BA9F47DEA19D747E591 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54E1484A5F467065DC30FE608DED4BA /* MapKit.framework */; };
-		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECAE0D2045D9A8635421741880EDA5D /* UIKit.framework */; };
-		E3C0D1D8A830F58A6CEDDF1B4B6E1934 /* BaseModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA370E1E5F7688B873D17C0929ECA3C /* BaseModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6407C7CFF39A184B08FF3055AE0A7FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC41F008025D6FF811E4287393D79D5 /* Foundation.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDA9C4218C751AA0E9F654365E6F538C /* GMRouterDefault.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4A221E2C4E75B44C3FC470D4C0A4E4 /* GMRouterDefault.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEBF9343AEEBE18BAD3A698D52B4CF46 /* BaseModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4566E7159C75D8917EDC00A7C72A34C0 /* BaseModule.m */; };
+		11DE6D0887C4F51E816A582E1FAA7890 /* Pods-GMURLRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4090596AA9BDEB9C3D9DE875BDC266E /* Pods-GMURLRouter_Tests-dummy.m */; };
+		16CE81D1C05402D3D168F5C46622AB5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCECC10DF0010511B11C217C6EDE178F /* Foundation.framework */; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCECC10DF0010511B11C217C6EDE178F /* Foundation.framework */; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		36E137D27B307195A56711861E275420 /* Pods-GMURLRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DD27B3498962093BEA1048CB57A8EF /* Pods-GMURLRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3B203FA74A44D4F1DF0B3036C31C696F /* GMRouterDefault.h in Headers */ = {isa = PBXBuildFile; fileRef = FFAE2CC9E259034D953C5D10761D41DD /* GMRouterDefault.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E7F9B5FA31CABD00C40F054AFC88F68 /* GMURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C9C3903A40F655A242CCD232A0D11C /* GMURLRouter.m */; };
+		465C13E4D66250EC9F82A12D9B1622BC /* GMURLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A93721CC382C22FD10D204B3D036F4E /* GMURLRouter-dummy.m */; };
+		51EEBF61D5ED9B890A08CD80CEFBC5F9 /* GMSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAE7864C206F535FD0957D336AEE3A2 /* GMSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58A3C48FE99029042D1592C7C091232C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCECC10DF0010511B11C217C6EDE178F /* Foundation.framework */; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6BD79B487E6C4FB5C35A7D4B5C73F52B /* GMURLNavgation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD552E08FC4A56148801237365B108F /* GMURLNavgation.m */; };
+		6DD41FF1475C2016BE209A8960BBDF05 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4350F7236DE37D36B2CFAE449E8E83A0 /* MapKit.framework */; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		7C05C9E85A25E00EEB20E14A07873157 /* BaseModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A73303F03884502A2B7A58B6808A0CF5 /* BaseModule.m */; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AFA18E52DE81EB843598C78C7781A2 /* UIKit.framework */; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BDFBA4419DC5E9566A82BABF37C8A06 /* GMURLNavgation.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0A91942E9914F44572269EBD46332B /* GMURLNavgation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE2C8C026DE59ABF174C3A1FCAB86A7 /* BaseModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A4A68A8A9531CEC1DA548387D9095F /* BaseModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9255BEDA4EB2536D2054E237C8298E8E /* GMRouterConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCE49B436242C78AFADDA80DBB91784 /* GMRouterConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968C4504C37D414CD2EF797DC0459BF0 /* UIViewController+GMURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E1A9E13BEF400925A0F08C31B2A47F /* UIViewController+GMURLRouter.m */; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D828BF2E33D19914C16E022D9637F49 /* XCTest.framework */; };
+		9F36AD912229E66D6F1A185D782A5725 /* Pods-GMURLRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2C0951016F88CB76E428380F880880 /* Pods-GMURLRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE9BC74F1CFD9B9D7D25879A42FA103 /* Pods-GMURLRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E49E2D3A820210516A873D918B84AC50 /* Pods-GMURLRouter_Example-dummy.m */; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		BF965FDFC1DD989E655FF11AA295221D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCECC10DF0010511B11C217C6EDE178F /* Foundation.framework */; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413725CCC8C2E53C8640D48DE180A218 /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		D68DBCE49BE662453FFC6EF25A1069A6 /* GMURLRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C30348B584FFDF59D7183DF7EEE2F6A /* GMURLRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC2996D56C7A454632EB9C992EFB18E /* GMRouterConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF3FD2C01864B9EFDC03B335AFA7656 /* GMRouterConfig.m */; };
+		FC09B9062FDD04EECC8075780B64F650 /* GMURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BE34CF5220616D2DDB764F25F197D0 /* GMURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC8B4880D48E3C4F53643E09AFF040D0 /* UIViewController+GMURLRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AFAA70BC4601259EA7CA49DA0938AB /* UIViewController+GMURLRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCAA77C4618761BF1604D545BE7D832C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AFA18E52DE81EB843598C78C7781A2 /* UIKit.framework */; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		06AF7B0BEC35504BBFBF146A4F1D2682 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 63F0AD4856F55741E7C8EDD3DB14C6B2;
-			remoteInfo = "Pods-GMURLRouter_Example";
-		};
-		2CA389FBA8AFBC5F15DAB29E45D2F532 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B580C258D8B647016E439AE16D25654D;
-			remoteInfo = GMURLRouter;
-		};
-		2F9FCD6A3EC2ACB251A792E856212372 /* PBXContainerItemProxy */ = {
+		98DE75CB038CB2EC6F4F96F0D14C69C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		BAFE64FC6704E957E0C7425206B17E33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B580C258D8B647016E439AE16D25654D;
+			remoteInfo = GMURLRouter;
+		};
+		F030A9C7B087236762ED1C6F20127868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63F0AD4856F55741E7C8EDD3DB14C6B2;
+			remoteInfo = "Pods-GMURLRouter_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		062AE9E090FCBB69E25AB0EA3E97F897 /* UIViewController+GMURLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+GMURLRouter.h"; path = "GMURLRouter/Classes/UIViewController+GMURLRouter.h"; sourceTree = "<group>"; };
 		06338A13AB0BCE45B70FACFE70B99421 /* Pods-GMURLRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMURLRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		083674D2F3349F2A03B14DAF1E2B167A /* Pods-GMURLRouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMURLRouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		0BB7BD01A4FDDD658742982ABF56EFC7 /* Pods-GMURLRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMURLRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		0F98410BD939883F36A52167D0466250 /* Pods-GMURLRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMURLRouter_Tests-Info.plist"; sourceTree = "<group>"; };
-		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		13DD27B3498962093BEA1048CB57A8EF /* Pods-GMURLRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMURLRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		1A93721CC382C22FD10D204B3D036F4E /* GMURLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMURLRouter-dummy.m"; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		23C9C3903A40F655A242CCD232A0D11C /* GMURLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMURLRouter.m; path = GMURLRouter/Classes/GMURLRouter.m; sourceTree = "<group>"; };
+		23F47C56D7A5F55887AB17AB4CCABE47 /* GMURLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GMURLRouter-Info.plist"; sourceTree = "<group>"; };
 		248389C8E1F7D21AE20C42CF56366AE6 /* Pods-GMURLRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMURLRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		4566E7159C75D8917EDC00A7C72A34C0 /* BaseModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseModule.m; path = GMURLRouter/Classes/BaseModule.m; sourceTree = "<group>"; };
-		4B69BCA56EA881244D566DE4D2F6571A /* GMURLNavgation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMURLNavgation.h; path = GMURLRouter/Classes/GMURLNavgation.h; sourceTree = "<group>"; };
-		4D9C6AD0C5224EEF740F54B54FFA4B78 /* GMURLRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMURLRouter.xcconfig; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2CF3FD2C01864B9EFDC03B335AFA7656 /* GMRouterConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMRouterConfig.m; path = GMURLRouter/Classes/GMRouterConfig.m; sourceTree = "<group>"; };
+		2D828BF2E33D19914C16E022D9637F49 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3CCE49B436242C78AFADDA80DBB91784 /* GMRouterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRouterConfig.h; path = GMURLRouter/Classes/GMRouterConfig.h; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		413725CCC8C2E53C8640D48DE180A218 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4350F7236DE37D36B2CFAE449E8E83A0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		461673B821AEBBCD30B6E1CF0FA43351 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C30348B584FFDF59D7183DF7EEE2F6A /* GMURLRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMURLRouter-umbrella.h"; sourceTree = "<group>"; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		4EA860909FE2905EAEADDD0A6765FD1D /* Pods-GMURLRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMURLRouter_Tests.modulemap"; sourceTree = "<group>"; };
-		4FB7217F8A130B1C19EA5485559B13B7 /* UIViewController+GMURLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+GMURLRouter.m"; path = "GMURLRouter/Classes/UIViewController+GMURLRouter.m"; sourceTree = "<group>"; };
-		5070334A0FC88303DA5332362DEA1725 /* GMURLRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMURLRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52624F6E1F28E11BDAF5B7E20BCC9378 /* GMRouterConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMRouterConfig.m; path = GMURLRouter/Classes/GMRouterConfig.m; sourceTree = "<group>"; };
-		54F124553665829DEA387E4397C4D982 /* GMURLRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMURLRouter-umbrella.h"; sourceTree = "<group>"; };
-		5A4DAEDFF9C39CAE8F0B54AC6BB82EE8 /* GMURLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMURLRouter.m; path = GMURLRouter/Classes/GMURLRouter.m; sourceTree = "<group>"; };
-		5ACFB4E28B3BD4D68B456B1729B74B86 /* GMURLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GMURLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		631C7FA480E8EC22E983AD7CA0418995 /* GMSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSingleton.h; path = GMURLRouter/Classes/GMSingleton.h; sourceTree = "<group>"; };
-		63E74E1E7220F6AD71100A5536F3C42A /* Pods_GMURLRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMURLRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5070334A0FC88303DA5332362DEA1725 /* GMURLRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GMURLRouter; path = GMURLRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AFAA70BC4601259EA7CA49DA0938AB /* UIViewController+GMURLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+GMURLRouter.h"; path = "GMURLRouter/Classes/UIViewController+GMURLRouter.h"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E74E1E7220F6AD71100A5536F3C42A /* Pods-GMURLRouter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GMURLRouter_Tests"; path = Pods_GMURLRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		689C76B89BE2FA0035E1B00F5AB58E54 /* Pods-GMURLRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMURLRouter_Example.modulemap"; sourceTree = "<group>"; };
-		68A92360AE11E492E6D65021271B75E4 /* GMURLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMURLRouter-prefix.pch"; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6ADC9CA88B217CCB28C05FFE7FEAF6C4 /* Pods-GMURLRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMURLRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D4A221E2C4E75B44C3FC470D4C0A4E4 /* GMRouterDefault.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRouterDefault.h; path = GMURLRouter/Classes/GMRouterDefault.h; sourceTree = "<group>"; };
-		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		762B87EB060DC71EC877CD89F313B1E9 /* GMURLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMURLRouter.release.xcconfig; sourceTree = "<group>"; };
+		7961F14FB74498290049ED68497E2276 /* GMURLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GMURLRouter-prefix.pch"; sourceTree = "<group>"; };
 		7A2C0951016F88CB76E428380F880880 /* Pods-GMURLRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMURLRouter_Example-umbrella.h"; sourceTree = "<group>"; };
-		81029C66BB74357C96FFE08D3BECABB3 /* GMURLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMURLRouter.h; path = GMURLRouter/Classes/GMURLRouter.h; sourceTree = "<group>"; };
-		81B9C583C9E93EECEA4FE16F39011404 /* GMURLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GMURLRouter-Info.plist"; sourceTree = "<group>"; };
-		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		8ECAE0D2045D9A8635421741880EDA5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		918A4A447F67FE816CF0B086EE1695FF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9AA370E1E5F7688B873D17C0929ECA3C /* BaseModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseModule.h; path = GMURLRouter/Classes/BaseModule.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8D014C2041FF95E8836086B5048196D7 /* GMURLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GMURLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8EAE7864C206F535FD0957D336AEE3A2 /* GMSingleton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMSingleton.h; path = GMURLRouter/Classes/GMSingleton.h; sourceTree = "<group>"; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2FE56CEFC1D41509AC0B17EB0BCDA2B /* Pods-GMURLRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMURLRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		B2AC2AA5BA53F91C164930E39538B846 /* GMURLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GMURLRouter-dummy.m"; sourceTree = "<group>"; };
-		BAF543B6519A44D5EB5BD84949F17A53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		BCF2EA956072DA86A8C93EDDB282DFDC /* GMURLRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMURLRouter.modulemap; sourceTree = "<group>"; };
-		BE3881A430378C2AFC1532343C44188A /* GMRouterConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRouterConfig.h; path = GMURLRouter/Classes/GMRouterConfig.h; sourceTree = "<group>"; };
-		BFB8A2C1B25A5FC2ED91467AB1C2DC67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A73303F03884502A2B7A58B6808A0CF5 /* BaseModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseModule.m; path = GMURLRouter/Classes/BaseModule.m; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B0AFA18E52DE81EB843598C78C7781A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2A4A68A8A9531CEC1DA548387D9095F /* BaseModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseModule.h; path = GMURLRouter/Classes/BaseModule.h; sourceTree = "<group>"; };
+		B40E34F1DBC60934F77AB3D8202C9D68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		BAD552E08FC4A56148801237365B108F /* GMURLNavgation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMURLNavgation.m; path = GMURLRouter/Classes/GMURLNavgation.m; sourceTree = "<group>"; };
 		C5330566D65B9E6264630C17F75D2FD7 /* Pods-GMURLRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMURLRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CBC41F008025D6FF811E4287393D79D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CCB19509BFC0A9D3F7BB4E336BA64D92 /* GMURLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GMURLRouter.debug.xcconfig; sourceTree = "<group>"; };
+		CF0A91942E9914F44572269EBD46332B /* GMURLNavgation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMURLNavgation.h; path = GMURLRouter/Classes/GMURLNavgation.h; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D4090596AA9BDEB9C3D9DE875BDC266E /* Pods-GMURLRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMURLRouter_Tests-dummy.m"; sourceTree = "<group>"; };
-		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		DFB4F5BD9D0EEA7F8C3323D476008CDB /* Pods-GMURLRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMURLRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		E3B5E76ADA7729A52DDAE40157CD23E4 /* GMURLNavgation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMURLNavgation.m; path = GMURLRouter/Classes/GMURLNavgation.m; sourceTree = "<group>"; };
-		E460F11E4732EB88DA9319841342E909 /* Pods_GMURLRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMURLRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E460F11E4732EB88DA9319841342E909 /* Pods-GMURLRouter_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GMURLRouter_Example"; path = Pods_GMURLRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49E2D3A820210516A873D918B84AC50 /* Pods-GMURLRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMURLRouter_Example-dummy.m"; sourceTree = "<group>"; };
-		E54E1484A5F467065DC30FE608DED4BA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		E592F082E8D2F471B456515389194EA7 /* GMURLRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GMURLRouter.modulemap; sourceTree = "<group>"; };
+		E7BE34CF5220616D2DDB764F25F197D0 /* GMURLRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMURLRouter.h; path = GMURLRouter/Classes/GMURLRouter.h; sourceTree = "<group>"; };
 		EC1E58545871A0ABE458609E3E810FA8 /* Pods-GMURLRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMURLRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F1FADF60E9DD790CA6E4094C4D6050DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		F747D8BC35550A2FB71A3588FDD31C71 /* Pods-GMURLRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMURLRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F7E1A9E13BEF400925A0F08C31B2A47F /* UIViewController+GMURLRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+GMURLRouter.m"; path = "GMURLRouter/Classes/UIViewController+GMURLRouter.m"; sourceTree = "<group>"; };
+		FCECC10DF0010511B11C217C6EDE178F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		FF29138E711D5E92B3482FC5F59A3418 /* Pods-GMURLRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMURLRouter_Example-Info.plist"; sourceTree = "<group>"; };
+		FFAE2CC9E259034D953C5D10761D41DD /* GMRouterDefault.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMRouterDefault.h; path = GMURLRouter/Classes/GMRouterDefault.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E1C0F8485EF87FFA8BDD377D9EF337C8 /* Frameworks */ = {
+		3A5300ADC754B45948991FAD0B6D5683 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6407C7CFF39A184B08FF3055AE0A7FB /* Foundation.framework in Frameworks */,
+				16CE81D1C05402D3D168F5C46622AB5A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+		A9569C7B91852EFF52283B4245934FCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
-				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
-				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
-				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+				58A3C48FE99029042D1592C7C091232C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED151012B395E466194F54B556910A0C /* Frameworks */ = {
+		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B9B50839297C7439228FE08CDEBEA91 /* Foundation.framework in Frameworks */,
-				D104C20ADA2A0BA9F47DEA19D747E591 /* MapKit.framework in Frameworks */,
-				BF85A5BD2C109D6EC7E97CCDDE6A3410 /* UIKit.framework in Frameworks */,
+				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
+				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
+				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
+				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8FCBAAB7975977FEDBB0C4D5B519A80 /* Frameworks */ = {
+		FA096FD869B142EBBCDBB3975813DF82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BA9DDF91F89A86EED0B432BC9AA5E7A /* Foundation.framework in Frameworks */,
+				BF965FDFC1DD989E655FF11AA295221D /* Foundation.framework in Frameworks */,
+				6DD41FF1475C2016BE209A8960BBDF05 /* MapKit.framework in Frameworks */,
+				FCAA77C4618761BF1604D545BE7D832C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,89 +202,70 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0B707FEA924ED792663047794B5EAE18 /* iOS */ = {
+		39664A3141AB2D81E71E71DBBB4A26B6 /* GMURLRouter */ = {
 			isa = PBXGroup;
 			children = (
-				CBC41F008025D6FF811E4287393D79D5 /* Foundation.framework */,
-				E54E1484A5F467065DC30FE608DED4BA /* MapKit.framework */,
-				F1FADF60E9DD790CA6E4094C4D6050DA /* QuartzCore.framework */,
-				8ECAE0D2045D9A8635421741880EDA5D /* UIKit.framework */,
-				918A4A447F67FE816CF0B086EE1695FF /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1F2031ADAA9352643804325F546F177A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5ACFB4E28B3BD4D68B456B1729B74B86 /* GMURLRouter.podspec */,
-				BAF543B6519A44D5EB5BD84949F17A53 /* LICENSE */,
-				BFB8A2C1B25A5FC2ED91467AB1C2DC67 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2E0DE2F6F53CAEB8822F0D55EEABC5B9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				5070334A0FC88303DA5332362DEA1725 /* GMURLRouter.framework */,
-				E460F11E4732EB88DA9319841342E909 /* Pods_GMURLRouter_Example.framework */,
-				63E74E1E7220F6AD71100A5536F3C42A /* Pods_GMURLRouter_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */,
-				418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */,
-				3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */,
-				1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */,
-				746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */,
-				E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		4BE1E2DC1A23A7B5DD75ABF734CF39DC /* GMURLRouter */ = {
-			isa = PBXGroup;
-			children = (
-				9AA370E1E5F7688B873D17C0929ECA3C /* BaseModule.h */,
-				4566E7159C75D8917EDC00A7C72A34C0 /* BaseModule.m */,
-				BE3881A430378C2AFC1532343C44188A /* GMRouterConfig.h */,
-				52624F6E1F28E11BDAF5B7E20BCC9378 /* GMRouterConfig.m */,
-				6D4A221E2C4E75B44C3FC470D4C0A4E4 /* GMRouterDefault.h */,
-				631C7FA480E8EC22E983AD7CA0418995 /* GMSingleton.h */,
-				4B69BCA56EA881244D566DE4D2F6571A /* GMURLNavgation.h */,
-				E3B5E76ADA7729A52DDAE40157CD23E4 /* GMURLNavgation.m */,
-				81029C66BB74357C96FFE08D3BECABB3 /* GMURLRouter.h */,
-				5A4DAEDFF9C39CAE8F0B54AC6BB82EE8 /* GMURLRouter.m */,
-				062AE9E090FCBB69E25AB0EA3E97F897 /* UIViewController+GMURLRouter.h */,
-				4FB7217F8A130B1C19EA5485559B13B7 /* UIViewController+GMURLRouter.m */,
-				1F2031ADAA9352643804325F546F177A /* Pod */,
-				90F7DDE4572B52F292796930E1298EE8 /* Support Files */,
+				B2A4A68A8A9531CEC1DA548387D9095F /* BaseModule.h */,
+				A73303F03884502A2B7A58B6808A0CF5 /* BaseModule.m */,
+				3CCE49B436242C78AFADDA80DBB91784 /* GMRouterConfig.h */,
+				2CF3FD2C01864B9EFDC03B335AFA7656 /* GMRouterConfig.m */,
+				FFAE2CC9E259034D953C5D10761D41DD /* GMRouterDefault.h */,
+				8EAE7864C206F535FD0957D336AEE3A2 /* GMSingleton.h */,
+				CF0A91942E9914F44572269EBD46332B /* GMURLNavgation.h */,
+				BAD552E08FC4A56148801237365B108F /* GMURLNavgation.m */,
+				E7BE34CF5220616D2DDB764F25F197D0 /* GMURLRouter.h */,
+				23C9C3903A40F655A242CCD232A0D11C /* GMURLRouter.m */,
+				55AFAA70BC4601259EA7CA49DA0938AB /* UIViewController+GMURLRouter.h */,
+				F7E1A9E13BEF400925A0F08C31B2A47F /* UIViewController+GMURLRouter.m */,
+				D5258046B4BB938FA35A96E9127626C3 /* Pod */,
+				74A9C10E1355388222D1079C11A35433 /* Support Files */,
 			);
 			name = GMURLRouter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		73C29F3ED62A4E8332F984E40800DAB6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4BE1E2DC1A23A7B5DD75ABF734CF39DC /* GMURLRouter */,
+				39664A3141AB2D81E71E71DBBB4A26B6 /* GMURLRouter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
+		74A9C10E1355388222D1079C11A35433 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
+				E592F082E8D2F471B456515389194EA7 /* GMURLRouter.modulemap */,
+				1A93721CC382C22FD10D204B3D036F4E /* GMURLRouter-dummy.m */,
+				23F47C56D7A5F55887AB17AB4CCABE47 /* GMURLRouter-Info.plist */,
+				7961F14FB74498290049ED68497E2276 /* GMURLRouter-prefix.pch */,
+				4C30348B584FFDF59D7183DF7EEE2F6A /* GMURLRouter-umbrella.h */,
+				CCB19509BFC0A9D3F7BB4E336BA64D92 /* GMURLRouter.debug.xcconfig */,
+				762B87EB060DC71EC877CD89F313B1E9 /* GMURLRouter.release.xcconfig */,
 			);
-			name = SwiftSupport;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GMURLRouter";
 			sourceTree = "<group>";
 		};
 		86C0711165FFF596697C9ADB23722E6E /* Pods-GMURLRouter_Tests */ = {
@@ -302,49 +285,12 @@
 			path = "Target Support Files/Pods-GMURLRouter_Tests";
 			sourceTree = "<group>";
 		};
-		90F7DDE4572B52F292796930E1298EE8 /* Support Files */ = {
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				BCF2EA956072DA86A8C93EDDB282DFDC /* GMURLRouter.modulemap */,
-				4D9C6AD0C5224EEF740F54B54FFA4B78 /* GMURLRouter.xcconfig */,
-				B2AC2AA5BA53F91C164930E39538B846 /* GMURLRouter-dummy.m */,
-				81B9C583C9E93EECEA4FE16F39011404 /* GMURLRouter-Info.plist */,
-				68A92360AE11E492E6D65021271B75E4 /* GMURLRouter-prefix.pch */,
-				54F124553665829DEA387E4397C4D982 /* GMURLRouter-umbrella.h */,
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GMURLRouter";
-			sourceTree = "<group>";
-		};
-		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				9DD967528FC2F5BD41E45879D4B78BEE /* Core */,
-				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
-				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		9DD967528FC2F5BD41E45879D4B78BEE /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */,
-				13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */,
-				D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */,
-				AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */,
-				88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */,
-				DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */,
-				0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */,
-				8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */,
-				A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */,
-				EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */,
-				E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */,
-				E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */,
-				EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */,
-				AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		A570EDFBC2F51A7FD0939BBCF0488CBA /* Pods-GMURLRouter_Example */ = {
@@ -364,12 +310,49 @@
 			path = "Target Support Files/Pods-GMURLRouter_Example";
 			sourceTree = "<group>";
 		};
+		A57303C756C375CF8431D3D7C038E21F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				5070334A0FC88303DA5332362DEA1725 /* GMURLRouter */,
+				E460F11E4732EB88DA9319841342E909 /* Pods-GMURLRouter_Example */,
+				63E74E1E7220F6AD71100A5536F3C42A /* Pods-GMURLRouter_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
 		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0B707FEA924ED792663047794B5EAE18 /* iOS */,
+				F551D05D2B2E56AA5193ED16F1929974 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -379,65 +362,87 @@
 				73C29F3ED62A4E8332F984E40800DAB6 /* Development Pods */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				2E0DE2F6F53CAEB8822F0D55EEABC5B9 /* Products */,
+				A57303C756C375CF8431D3D7C038E21F /* Products */,
 				06D8FD63C038B4C7E9B26265BDCFDB91 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D5258046B4BB938FA35A96E9127626C3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8D014C2041FF95E8836086B5048196D7 /* GMURLRouter.podspec */,
+				461673B821AEBBCD30B6E1CF0FA43351 /* LICENSE */,
+				B40E34F1DBC60934F77AB3D8202C9D68 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F551D05D2B2E56AA5193ED16F1929974 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FCECC10DF0010511B11C217C6EDE178F /* Foundation.framework */,
+				4350F7236DE37D36B2CFAE449E8E83A0 /* MapKit.framework */,
+				413725CCC8C2E53C8640D48DE180A218 /* QuartzCore.framework */,
+				B0AFA18E52DE81EB843598C78C7781A2 /* UIKit.framework */,
+				2D828BF2E33D19914C16E022D9637F49 /* XCTest.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		24662CB4F29193DEF5FD9CD62417E826 /* Headers */ = {
+		49C6739B37FA1DEA8D723F81B96F20E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3C0D1D8A830F58A6CEDDF1B4B6E1934 /* BaseModule.h in Headers */,
-				B8C29FE3631D38EFF548F0F295268F2E /* GMRouterConfig.h in Headers */,
-				FDA9C4218C751AA0E9F654365E6F538C /* GMRouterDefault.h in Headers */,
-				C8D43B74F83029639AB9A12661AA9FA4 /* GMSingleton.h in Headers */,
-				A0A1D002C2A4F06E1018493B22FB9D95 /* GMURLNavgation.h in Headers */,
-				78A9F516C94C8D16C1D59143841CE15B /* GMURLRouter-umbrella.h in Headers */,
-				5EBC125B0F7099C2D5024F9EAFBD58E7 /* GMURLRouter.h in Headers */,
-				990C6592C5EC54214A9EBA81697653D3 /* UIViewController+GMURLRouter.h in Headers */,
+				9F36AD912229E66D6F1A185D782A5725 /* Pods-GMURLRouter_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37B25484ADE584580B25B6A866086625 /* Headers */ = {
+		A9349C6BBB8BA890F85EDF06E3BD0897 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				234766AD75B60372DD91024379826FA9 /* Pods-GMURLRouter_Example-umbrella.h in Headers */,
+				36E137D27B307195A56711861E275420 /* Pods-GMURLRouter_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
-				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
-				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
-				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
-				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
-				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
-				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
+				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
+				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
+				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
+				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CA032F7C56C0654ADE8A3B8ADCEF4E8 /* Headers */ = {
+		E3AF2B4D27D6024FF9825273A538925B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C321926920BFBC79DF4697D56B807914 /* Pods-GMURLRouter_Tests-umbrella.h in Headers */,
+				8BE2C8C026DE59ABF174C3A1FCAB86A7 /* BaseModule.h in Headers */,
+				9255BEDA4EB2536D2054E237C8298E8E /* GMRouterConfig.h in Headers */,
+				3B203FA74A44D4F1DF0B3036C31C696F /* GMRouterDefault.h in Headers */,
+				51EEBF61D5ED9B890A08CD80CEFBC5F9 /* GMSingleton.h in Headers */,
+				8BDFBA4419DC5E9566A82BABF37C8A06 /* GMURLNavgation.h in Headers */,
+				FC09B9062FDD04EECC8075780B64F650 /* GMURLRouter.h in Headers */,
+				D68DBCE49BE662453FFC6EF25A1069A6 /* GMURLRouter-umbrella.h in Headers */,
+				FC8B4880D48E3C4F53643E09AFF040D0 /* UIViewController+GMURLRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,51 +451,51 @@
 /* Begin PBXNativeTarget section */
 		63F0AD4856F55741E7C8EDD3DB14C6B2 /* Pods-GMURLRouter_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE0A296274AB748DFFED5A5E5D232A4C /* Build configuration list for PBXNativeTarget "Pods-GMURLRouter_Example" */;
+			buildConfigurationList = 92A67C6BF2CA3E1163E1C702F00D398E /* Build configuration list for PBXNativeTarget "Pods-GMURLRouter_Example" */;
 			buildPhases = (
-				37B25484ADE584580B25B6A866086625 /* Headers */,
-				33CDEB9B193BC119DFE5B9EB658E2795 /* Sources */,
-				E1C0F8485EF87FFA8BDD377D9EF337C8 /* Frameworks */,
-				E92D84A290A125E24C10DFF4263368F2 /* Resources */,
+				49C6739B37FA1DEA8D723F81B96F20E7 /* Headers */,
+				496E2FCBC1072D313D3F8E61554BAFB6 /* Sources */,
+				A9569C7B91852EFF52283B4245934FCC /* Frameworks */,
+				B494723C82454472DDB8F634EA3CA631 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D02CE335490A8F8AE9B5E497823D9B22 /* PBXTargetDependency */,
+				1B87C330A09A06BD775583F2CA1FEBBE /* PBXTargetDependency */,
 			);
 			name = "Pods-GMURLRouter_Example";
-			productName = "Pods-GMURLRouter_Example";
-			productReference = E460F11E4732EB88DA9319841342E909 /* Pods_GMURLRouter_Example.framework */;
+			productName = Pods_GMURLRouter_Example;
+			productReference = E460F11E4732EB88DA9319841342E909 /* Pods-GMURLRouter_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		721A1111E673A7040E2539DBC687CB0D /* Pods-GMURLRouter_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D918A702C79EAF1440A42020EA56BFD /* Build configuration list for PBXNativeTarget "Pods-GMURLRouter_Tests" */;
+			buildConfigurationList = C79165429577025264D780C6EA53010C /* Build configuration list for PBXNativeTarget "Pods-GMURLRouter_Tests" */;
 			buildPhases = (
-				3CA032F7C56C0654ADE8A3B8ADCEF4E8 /* Headers */,
-				9AD53C037819FD1FA22D88483790015C /* Sources */,
-				F8FCBAAB7975977FEDBB0C4D5B519A80 /* Frameworks */,
-				560F271564360B4B8A1E2BC4CFBFE734 /* Resources */,
+				A9349C6BBB8BA890F85EDF06E3BD0897 /* Headers */,
+				7EA55F77539541170F594715B3CCB554 /* Sources */,
+				3A5300ADC754B45948991FAD0B6D5683 /* Frameworks */,
+				4F0239D5F5640797D1C3EF2882EF69E5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				737E25C57AEEE503E377FA96C30ECC2F /* PBXTargetDependency */,
-				176B5AB395622650EE094BF53D1BB946 /* PBXTargetDependency */,
+				465C5F8EB8B2E39A889EFDDF0657A4CE /* PBXTargetDependency */,
+				51E6CFA480C63FE52322EA2787569B4E /* PBXTargetDependency */,
 			);
 			name = "Pods-GMURLRouter_Tests";
-			productName = "Pods-GMURLRouter_Tests";
-			productReference = 63E74E1E7220F6AD71100A5536F3C42A /* Pods_GMURLRouter_Tests.framework */;
+			productName = Pods_GMURLRouter_Tests;
+			productReference = 63E74E1E7220F6AD71100A5536F3C42A /* Pods-GMURLRouter_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
 			buildPhases = (
-				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
-				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
-				E581515110D66F94F80A6937831489A1 /* Frameworks */,
-				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
+				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
+				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
+				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -498,17 +503,17 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
 			productType = "com.apple.product-type.framework";
 		};
 		B580C258D8B647016E439AE16D25654D /* GMURLRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CD8C468C6A494BD4324FB1CF803EC0B /* Build configuration list for PBXNativeTarget "GMURLRouter" */;
+			buildConfigurationList = 25D05E04A1FEBED1064568FF11320413 /* Build configuration list for PBXNativeTarget "GMURLRouter" */;
 			buildPhases = (
-				24662CB4F29193DEF5FD9CD62417E826 /* Headers */,
-				6BEB498D2D68C00163D01A67B36ECB0C /* Sources */,
-				ED151012B395E466194F54B556910A0C /* Frameworks */,
-				4594F644673E450533DA85401F7CF1C6 /* Resources */,
+				E3AF2B4D27D6024FF9825273A538925B /* Headers */,
+				9BBCCFF1FCBBA2DA2188DDE755DBF826 /* Sources */,
+				FA096FD869B142EBBCDBB3975813DF82 /* Frameworks */,
+				F3598F9A3B21D62D3D53BBEFE15EC0F4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -516,7 +521,7 @@
 			);
 			name = GMURLRouter;
 			productName = GMURLRouter;
-			productReference = 5070334A0FC88303DA5332362DEA1725 /* GMURLRouter.framework */;
+			productReference = 5070334A0FC88303DA5332362DEA1725 /* GMURLRouter */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -525,19 +530,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2E0DE2F6F53CAEB8822F0D55EEABC5B9 /* Products */;
+			productRefGroup = A57303C756C375CF8431D3D7C038E21F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -550,28 +555,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4594F644673E450533DA85401F7CF1C6 /* Resources */ = {
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		560F271564360B4B8A1E2BC4CFBFE734 /* Resources */ = {
+		4F0239D5F5640797D1C3EF2882EF69E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+		B494723C82454472DDB8F634EA3CA631 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E92D84A290A125E24C10DFF4263368F2 /* Resources */ = {
+		F3598F9A3B21D62D3D53BBEFE15EC0F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -581,145 +586,79 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33CDEB9B193BC119DFE5B9EB658E2795 /* Sources */ = {
+		496E2FCBC1072D313D3F8E61554BAFB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3859B80C56384D69B571624BE067CBA9 /* Pods-GMURLRouter_Example-dummy.m in Sources */,
+				9FE9BC74F1CFD9B9D7D25879A42FA103 /* Pods-GMURLRouter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BEB498D2D68C00163D01A67B36ECB0C /* Sources */ = {
+		7EA55F77539541170F594715B3CCB554 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEBF9343AEEBE18BAD3A698D52B4CF46 /* BaseModule.m in Sources */,
-				2FE55B97595A72BB31B4AE40D67698D9 /* GMRouterConfig.m in Sources */,
-				A9B8D9FD9D31F32C6E80E83C348DA1D6 /* GMURLNavgation.m in Sources */,
-				6BF2120ACA499483EF060F4DCAB023EC /* GMURLRouter-dummy.m in Sources */,
-				19D4532EE6E5F21792CBAE9B33743FEF /* GMURLRouter.m in Sources */,
-				539AB095ECD88B2693B3369A6BD77BF2 /* UIViewController+GMURLRouter.m in Sources */,
+				11DE6D0887C4F51E816A582E1FAA7890 /* Pods-GMURLRouter_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AD53C037819FD1FA22D88483790015C /* Sources */ = {
+		9BBCCFF1FCBBA2DA2188DDE755DBF826 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6090D08F1332936645108F8CEBA772B /* Pods-GMURLRouter_Tests-dummy.m in Sources */,
+				7C05C9E85A25E00EEB20E14A07873157 /* BaseModule.m in Sources */,
+				DFC2996D56C7A454632EB9C992EFB18E /* GMRouterConfig.m in Sources */,
+				6BD79B487E6C4FB5C35A7D4B5C73F52B /* GMURLNavgation.m in Sources */,
+				3E7F9B5FA31CABD00C40F054AFC88F68 /* GMURLRouter.m in Sources */,
+				465C13E4D66250EC9F82A12D9B1622BC /* GMURLRouter-dummy.m in Sources */,
+				968C4504C37D414CD2EF797DC0459BF0 /* UIViewController+GMURLRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
-				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
-				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
-				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
-				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
-				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
-				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
+				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
+				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
+				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
+				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
+				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
+				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
+				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		176B5AB395622650EE094BF53D1BB946 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-GMURLRouter_Example";
-			target = 63F0AD4856F55741E7C8EDD3DB14C6B2 /* Pods-GMURLRouter_Example */;
-			targetProxy = 06AF7B0BEC35504BBFBF146A4F1D2682 /* PBXContainerItemProxy */;
-		};
-		737E25C57AEEE503E377FA96C30ECC2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 2F9FCD6A3EC2ACB251A792E856212372 /* PBXContainerItemProxy */;
-		};
-		D02CE335490A8F8AE9B5E497823D9B22 /* PBXTargetDependency */ = {
+		1B87C330A09A06BD775583F2CA1FEBBE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GMURLRouter;
 			target = B580C258D8B647016E439AE16D25654D /* GMURLRouter */;
-			targetProxy = 2CA389FBA8AFBC5F15DAB29E45D2F532 /* PBXContainerItemProxy */;
+			targetProxy = BAFE64FC6704E957E0C7425206B17E33 /* PBXContainerItemProxy */;
+		};
+		465C5F8EB8B2E39A889EFDDF0657A4CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 98DE75CB038CB2EC6F4F96F0D14C69C3 /* PBXContainerItemProxy */;
+		};
+		51E6CFA480C63FE52322EA2787569B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GMURLRouter_Example";
+			target = 63F0AD4856F55741E7C8EDD3DB14C6B2 /* Pods-GMURLRouter_Example */;
+			targetProxy = F030A9C7B087236762ED1C6F20127868 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B4EAB27FBC02E9952B4FD0C76773A2F /* Release */ = {
+		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D9C6AD0C5224EEF740F54B54FFA4B78 /* GMURLRouter.xcconfig */;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GMURLRouter/GMURLRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GMURLRouter/GMURLRouter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GMURLRouter/GMURLRouter.modulemap";
-				PRODUCT_MODULE_NAME = GMURLRouter;
-				PRODUCT_NAME = GMURLRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5327EFD813D66CDABFD0783C8DF7234A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC1E58545871A0ABE458609E3E810FA8 /* Pods-GMURLRouter_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GMURLRouter_Example/Pods-GMURLRouter_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GMURLRouter_Example/Pods-GMURLRouter_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6981B49048575F8238B3C5B905C918E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -747,69 +686,43 @@
 			};
 			name = Release;
 		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		11EAE599CF08FFC5E1258B4B17840F88 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC1E58545871A0ABE458609E3E810FA8 /* Pods-GMURLRouter_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GMURLRouter_Example/Pods-GMURLRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GMURLRouter_Example/Pods-GMURLRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -832,6 +745,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -870,12 +784,42 @@
 			};
 			name = Debug;
 		};
-		B1C697E7D822B8495416B235E7BAEF27 /* Debug */ = {
+		27CAECE84218A7C887D4AEF35D570DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762B87EB060DC71EC877CD89F313B1E9 /* GMURLRouter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GMURLRouter/GMURLRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GMURLRouter/GMURLRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GMURLRouter/GMURLRouter.modulemap";
+				PRODUCT_MODULE_NAME = GMURLRouter;
+				PRODUCT_NAME = GMURLRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		474392526D5B23EF451F341FDD6058AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5330566D65B9E6264630C17F75D2FD7 /* Pods-GMURLRouter_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -903,12 +847,74 @@
 			};
 			name = Debug;
 		};
-		B8BED94CBA0ABFC4D8520A57550F93EC /* Release */ = {
+		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD65DD2B427739EF3B25556350246DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F747D8BC35550A2FB71A3588FDD31C71 /* Pods-GMURLRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GMURLRouter_Tests/Pods-GMURLRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GMURLRouter_Tests/Pods-GMURLRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B33142EF3143C8D04B8B807E29572F59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 248389C8E1F7D21AE20C42CF56366AE6 /* Pods-GMURLRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -937,42 +943,72 @@
 			};
 			name = Release;
 		};
-		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
-		EE937D1A537623DE1550B9908E5E0989 /* Debug */ = {
+		E355B8D338FAB78221C73DF4B316604D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D9C6AD0C5224EEF740F54B54FFA4B78 /* GMURLRouter.xcconfig */;
+			baseConfigurationReference = CCB19509BFC0A9D3F7BB4E336BA64D92 /* GMURLRouter.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -999,84 +1035,50 @@
 			};
 			name = Debug;
 		};
-		EF3C2C41348A5833A70C5881C38C5F62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F747D8BC35550A2FB71A3588FDD31C71 /* Pods-GMURLRouter_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GMURLRouter_Tests/Pods-GMURLRouter_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GMURLRouter_Tests/Pods-GMURLRouter_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25D05E04A1FEBED1064568FF11320413 /* Build configuration list for PBXNativeTarget "GMURLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E355B8D338FAB78221C73DF4B316604D /* Debug */,
+				27CAECE84218A7C887D4AEF35D570DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
+				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D918A702C79EAF1440A42020EA56BFD /* Build configuration list for PBXNativeTarget "Pods-GMURLRouter_Tests" */ = {
+		92A67C6BF2CA3E1163E1C702F00D398E /* Build configuration list for PBXNativeTarget "Pods-GMURLRouter_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1C697E7D822B8495416B235E7BAEF27 /* Debug */,
-				EF3C2C41348A5833A70C5881C38C5F62 /* Release */,
+				11EAE599CF08FFC5E1258B4B17840F88 /* Debug */,
+				B33142EF3143C8D04B8B807E29572F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CD8C468C6A494BD4324FB1CF803EC0B /* Build configuration list for PBXNativeTarget "GMURLRouter" */ = {
+		C79165429577025264D780C6EA53010C /* Build configuration list for PBXNativeTarget "Pods-GMURLRouter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE937D1A537623DE1550B9908E5E0989 /* Debug */,
-				2B4EAB27FBC02E9952B4FD0C76773A2F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE252C6C51286892441EE171776C7E81 /* Debug */,
-				6981B49048575F8238B3C5B905C918E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE0A296274AB748DFFED5A5E5D232A4C /* Build configuration list for PBXNativeTarget "Pods-GMURLRouter_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5327EFD813D66CDABFD0783C8DF7234A /* Debug */,
-				B8BED94CBA0ABFC4D8520A57550F93EC /* Release */,
+				474392526D5B23EF451F341FDD6058AB /* Debug */,
+				AD65DD2B427739EF3B25556350246DC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

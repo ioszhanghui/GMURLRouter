@@ -23,6 +23,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B834F02732F49AF2E6FE4700 /* Pods_GMURLRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD699EC39C544BDCFA9332D /* Pods_GMURLRouter_Example.framework */; };
+		C20EC0C127CDC0810038497B /* GMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20EC0C027CDC0810038497B /* GMSecondViewController.m */; };
+		C20EC0C427CDF6700038497B /* GMThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C20EC0C327CDF5840038497B /* GMThreeViewController.m */; };
+		C20EC0C727CE0EA60038497B /* GMHomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C20EC0C627CE0EA50038497B /* GMHomeModule.m */; };
 		C58A6FA9BC50BF4B0F9138C9 /* Pods_GMURLRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32961CBDE50256D59F0327F2 /* Pods_GMURLRouter_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CD699EC39C544BDCFA9332D /* Pods_GMURLRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMURLRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20EC0BF27CDC0810038497B /* GMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMSecondViewController.h; sourceTree = "<group>"; };
+		C20EC0C027CDC0810038497B /* GMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMSecondViewController.m; sourceTree = "<group>"; };
+		C20EC0C227CDF5840038497B /* GMThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMThreeViewController.h; sourceTree = "<group>"; };
+		C20EC0C327CDF5840038497B /* GMThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMThreeViewController.m; sourceTree = "<group>"; };
+		C20EC0C527CE0EA50038497B /* GMHomeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHomeModule.h; sourceTree = "<group>"; };
+		C20EC0C627CE0EA50038497B /* GMHomeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHomeModule.m; sourceTree = "<group>"; };
 		C6DC0882BF4F7BD4FDC6F716 /* Pods-GMURLRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMURLRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-GMURLRouter_Tests/Pods-GMURLRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D73068A417111B1F59789089 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +149,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				C20EC0BF27CDC0810038497B /* GMSecondViewController.h */,
+				C20EC0C027CDC0810038497B /* GMSecondViewController.m */,
 			);
 			name = "Example for GMURLRouter";
 			path = GMURLRouter;
@@ -151,7 +162,11 @@
 				6003F595195388D20070C39A /* GMURLRouter-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
+				C20EC0C527CE0EA50038497B /* GMHomeModule.h */,
+				C20EC0C627CE0EA50038497B /* GMHomeModule.m */,
 				6003F59B195388D20070C39A /* GMURLRouter-Prefix.pch */,
+				C20EC0C227CDF5840038497B /* GMThreeViewController.h */,
+				C20EC0C327CDF5840038497B /* GMThreeViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -383,8 +398,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C20EC0C727CE0EA60038497B /* GMHomeModule.m in Sources */,
+				C20EC0C427CDF6700038497B /* GMThreeViewController.m in Sources */,
 				6003F59E195388D20070C39A /* GMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GMViewController.m in Sources */,
+				C20EC0C127CDC0810038497B /* GMSecondViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
