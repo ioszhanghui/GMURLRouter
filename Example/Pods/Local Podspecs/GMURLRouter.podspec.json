@@ -1,0 +1,27 @@
+{
+  "name": "GMURLRouter",
+  "version": "0.1.0",
+  "summary": "跳转路由",
+  "description": "国美跳转路由",
+  "homepage": "https://github.com/ioszhanghui/GMURLRouter.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ioszhanghui@163.com": "yomingyo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ioszhanghui/GMURLRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "GMURLRouter/Classes/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
+}

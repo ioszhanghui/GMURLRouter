@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GMURLRouter (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GMURLRouter (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GMURLRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GMURLRouter: aa4709a76b25feb300d2f86a4116b7b0a1694585
+
+PODFILE CHECKSUM: 95fd14b28635b5daf99b37e3956c49d798f94fa5
+
+COCOAPODS: 1.8.4

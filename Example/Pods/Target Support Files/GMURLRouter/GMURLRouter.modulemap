@@ -1,0 +1,6 @@
+framework module GMURLRouter {
+  umbrella header "GMURLRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
